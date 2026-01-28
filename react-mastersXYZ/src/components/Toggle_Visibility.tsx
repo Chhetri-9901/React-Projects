@@ -14,7 +14,7 @@ const Toggle_Visibility = () => {
         }
     }
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex justify-center items-center h-[50%] py-5'>
         <div className='bg-[#151515] px-28 py-8 shadow-2xl rounded'>
         <button type="button" onClick={()=>{IsVisible(contentVisible)}} className='px-6 py-2 bg-blue-600 rounded-2xl cursor-pointer'>{buttonValue}</button>
         {!contentVisible ? '':(<div className='message my-2 text-center'>
