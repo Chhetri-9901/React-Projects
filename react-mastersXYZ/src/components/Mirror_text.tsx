@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Mirror_text = () => {
   const [value, setValue] = useState("Waiting for input...")
   const [valueCount, setValueCount] = useState(0)
-  function typing(e) {
+  function typing(e:any) {
     setValue(e.target.value);
     setValueCount((e.target.value).length); 
   }
